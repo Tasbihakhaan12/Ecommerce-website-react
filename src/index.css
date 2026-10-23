@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html { scroll-behavior: smooth; }
+body { margin: 0; }
+.line { border-color: var(--line); }
+.hov:hover { background: var(--card); }
+img { image-rendering: auto; }
